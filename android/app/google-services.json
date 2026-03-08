@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163062249561",
+    "project_id": "smsinvoice-gen",
+    "storage_bucket": "smsinvoice-gen.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163062249561:android:8bcfc001290f98cd5a1948",
+        "android_client_info": {
+          "package_name": "com.example.payparse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiisCmXCohsrCysA92WVJ9ipfGkGerqHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

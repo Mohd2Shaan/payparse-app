@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter Build APK",
+			"type": "shell",
+			"command": "flutter build apk --release",
+			"isBackground": false,
+			"problemMatcher": [
+				"$flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter Build Universal APK",
+			"type": "shell",
+			"command": "flutter build apk --release --target-platform=android-arm,android-arm64,android-x64 --split-per-abi",
+			"isBackground": false,
+			"problemMatcher": [
+				"$flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter Build Fat APK",
+			"type": "shell",
+			"command": "flutter build apk --release --target-platform=android-arm,android-arm64,android-x64",
+			"isBackground": false,
+			"problemMatcher": [
+				"$flutter"
+			],
+			"group": "build"
+		}
+	]
+}
